@@ -1,0 +1,587 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+*{
+
+    list-style:none;
+    padding: 0;
+    margin: 0;
+    font-family: "Oswald", sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container{
+    width: 1200px;
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+.title{
+
+    height: 463px;
+    background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.44) 0%, rgba(0, 0, 0, 0.44) 100%), url(backgroundph1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: #ffffff;
+ 
+}
+
+.navbar{
+    height: 100px;
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-menu{
+    text-align: center;
+}
+
+.nav-menu ul{
+    display: flex;
+    gap: 64px;
+    align-content: center;
+}
+.header_text{
+    text-align: center;
+    margin-top: 87px;
+}
+.header_text h1{
+    font-size: 58px;
+}
+.header_text p{
+    font-size: 16px;
+}
+
+.nav-menu li a{
+    font-size: 14px;
+    width: 35px;
+    height: 21px;
+    font-family: "Oswald", sans-serif;
+    color: #fff;
+    text-decoration: solid;
+}
+
+.nav-img{
+    margin-top: -10px;
+}
+
+.nav-img p {
+    color: rgb(255, 255, 255);
+    font-family: "Oswald", sans-serif;
+    font-size: 25px;
+    font-weight: 700    ;
+}
+
+
+.nav-img p span{
+    color: brown;
+    font-family: "Oswald", sans-serif;
+}
+
+.get-q button{
+    cursor: pointer;
+    width: 143px;
+    height: 49px;
+    border: 1px rgb(255, 255, 255) dotted;
+    gap: 10px;
+    background-color: transparent;
+    color: white;
+}
+
+.build{
+    font-family: oswald;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 35.57px;
+    align-items: center;
+    color: #ffffff;
+}
+.up{
+    font-family: oswald;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 35.57px;
+    align-items: center;
+    color: #ea6b00;
+}
+
+.home{
+    font-family: oswald;
+   font-weight: 600 ;
+   font-size: 14px; 
+   line-height: 20.75px;
+   color: #ffffff;
+}
+
+.pages{ 
+    font-family: oswald;
+    font-weight: 600;
+    font-size: 14px; 
+    line-height: 20.75px;
+    color: #ffffff;
+}
+
+.service{
+    font-family: oswald;
+    font-weight: 600 ;
+    font-size: 14px; 
+    line-height: 20.75px;
+    color: #ea6b00;
+}
+.project{
+    font-family: oswald;
+    font-weight: 600 ;
+    font-size: 14px; 
+    line-height: 20.75px;
+    color: #ffffff;
+}
+.news{
+    font-family: oswald;
+    font-weight: 600 ;
+    font-size: 14px; 
+    line-height: 20.75px;
+    color: #ffffff;
+}
+
+.nav-button{
+    width: 143px;
+    height: 49px;
+    left: 1057px;
+    border: 1px;
+    padding: 14px , 32px;
+    gap: 10px;
+    color: #ffffff;
+}
+
+.our{
+    color: white;
+}
+
+
+.project-container {
+    width: 1200px;
+    height: 1985px;
+    margin: auto;
+    position: relative; 
+    /* top: 592px;
+    left: 120px; */
+}
+
+.text1 {
+    padding-top: 129px;
+    font-family: Oswald;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20.75px;
+    letter-spacing: 0.05em;
+    color: #ea6b00;
+}
+
+.text2 {
+    padding-top: 12px;
+    font-family: Oswald;
+    font-size: 58px;
+    font-weight: 700;
+    line-height: 80px;
+    color: #222222;
+}
+
+.detail-project {
+    padding: 20px;
+}
+
+.photo1{
+    padding-top: 56px;
+}
+
+.photo1 img {
+    width: 100%;
+    height: 495px;
+}
+
+.photo-row {
+    display: flex;
+    justify-content: space-between; 
+    padding-top: 16px;
+}
+
+.ph2 {
+    width: calc((100% - (33px * 2)) / 3); 
+}
+.text5{
+    padding: 65px 0 0 0;
+    color: #222;
+font-family: Oswald;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+}
+
+.detail1{
+    padding: 32px 0 0 0;
+    color: #222;
+    font-family: Oswald;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.detail-catogories{
+    display: flex;
+    gap: 120px;
+/* justify-content: space-between;
+width: calc((100% - (120px * 5)) / 5); */
+padding: 32px 0 0 0;
+}
+
+.detail-catogories .detal2 h2{
+    color: #222;
+font-family: Oswald;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.detail-catogories .detal2 p{
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 34px;
+text-align: left;
+
+}
+
+.about{
+    display: flex;
+    padding: 65px 0 0 0;
+    gap: 57px;
+}
+
+.about-container{
+    width: 739px;
+    height: 735px;
+}
+
+
+
+.about .about-container p{
+
+ color: #222;
+font-family: Oswald;
+font-size: 32px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+
+
+.aboutext{
+padding: 28px 0 0 0;    
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 34px;
+text-align: left;
+color: #686868;
+
+}
+
+.aboutext1{
+padding: 24px 0 0 0;
+font-family: Roboto;
+font-size: 16px;
+font-weight: 400;
+line-height: 34px;
+text-align: left;
+color: #686868;
+}
+
+.download p{
+    font-family: Oswald;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 47.42px;
+    text-align: left;
+    padding: 0 0 28px 0; 
+}
+.download-item{
+    padding: 0 0 16px 0;
+    background-color: #f3f3f3;
+}
+
+.download .download-item span{
+    font-family: Oswald;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20.75px;
+    letter-spacing: 0.05em;
+    text-align: left;
+    
+}
+
+.contactUs0{
+    /* padding: 150px 0 0 0; */
+    position: relative;
+    margin-top: 100px;
+    background-image:url(https://www.samuelsgroup.net/hubfs/Images/Blog%20Images/5%20Types%20of%20Construction%20-%20Compressed%20Image.webp);
+    background-size: 100%;
+    width: 1440px;
+    height: 701px;
+    flex-shrink: 0;
+    color: black;
+}
+
+.imgh{
+    background: radial-gradient(50% 50% at 50% 50%, rgba(234, 107, 0, 0.67) 0%, #FF5E14 100%);
+    width: 1440px;
+    height: 701px;
+    flex-shrink: 0;
+}
+
+.contactUs0 .imgh .texts h5{
+    color: #FFF;
+    font-family: Oswald;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+    padding-top: 180px;
+
+}
+
+.contactUs0 .imgh .texts h3{
+    color: #FFF;
+    font-family: Oswald;
+    font-size: 58px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px; 
+    text-transform: uppercase;
+    width: 600px;
+}
+
+.contactUs0 .imgh .texts p{
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 34px; 
+    width: 482px;
+}
+
+.contactUs0 .imgh .texts{
+    justify-content: center;
+    align-items: center;
+    margin-left: 120px;
+    
+}
+
+.quote hr{ display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+}
+
+.quote{
+    height: auto;
+    flex-shrink: 0;
+    width: 597px;
+    background-color: antiquewhite;
+}
+
+.containerQuote{
+    font-family: Roboto;
+    position: absolute;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    margin: 0;
+    background: #fff;
+    padding: 20px;
+    border-radius: 1px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.containerQuote h2{
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.containerQuote .form-group {
+    margin-bottom: 15px;
+}
+
+.containerQuote label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.containerQuote input, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.containerQuote textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+.containerQuote button {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 20px 34px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    display: inline-flex;
+    gap: 10px;
+}
+
+.containerQuote button:hover {
+    background-color: #e65c00;
+}
+
+.containerQuote{
+    margin-left: 800px;
+    margin-top: -200px;
+}
+
+.footer-container {
+    margin-top: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 40px;
+    background-color: #fff;
+}
+
+.footer-left,
+.footer-links,
+.footer-social,
+.footer-subscribe {
+    flex: 1;
+    margin: 0 20px;
+    color: #222;
+}
+
+.footer-left h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.footer-left p {
+    font-size: 14px;
+    color: #777;
+}
+
+.footer-links h3,
+.footer-social h3,
+.footer-subscribe h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #777;
+    font-size: 14px;
+}
+
+.footer-links a:hover {
+    color: #333;
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icons a  {
+    width: 24px;
+    height: 24px;
+    color: #FF5E14;
+}
+
+.footer-social p {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    color: #777;
+}
+
+.footer-social p img {
+    margin-right: 5px;
+}
+
+#subscribe-form {
+    display: flex;
+}
+
+#subscribe-email {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    flex: 1;
+    margin-right: 10px;
+}
+
+#subscribe-btn {
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+#subscribe-btn:hover {
+    background-color: #e65c00;
+}
+
+.footer-copyright {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    color: #777;
+    font-size: 14px;
+    margin: 0;
+    border-top: 1px solid #ddd;
+}
